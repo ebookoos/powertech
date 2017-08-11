@@ -808,6 +808,10 @@ margin-right: auto;
     height: auto;
 }
 
+.text-pad {
+    padding:10px
+}
+
 
 .text-center-head{
     display: flex;
