@@ -41,9 +41,9 @@ body,p,.btn, .navbar-default, .navbar-default, .navbar-header, .navbar-brand,.na
 
 /*--------------------------------------*/
 
-h1,h2,h3,h4,h5,h6,title {
+h1,h2,h3,h4,h5,h6,title, .nav a, a.btn {
     font-family: 'Montserrat', sans-serif !important;
-    font-weight: 400;
+    font-weight: 700;
 
 }
 
@@ -1061,4 +1061,16 @@ li > a {
 
 .padre {
     padding-right: 30px;
+}
+
+
+ul.bottom-link {
+    padding-left: 0px;
+
+}
+.bottom-link li {
+    display: block;
+}
+.bottom-link li a {
+    color:white
 }
