@@ -1094,17 +1094,18 @@ ul.bottom-link {
 
 
 .df {
-    padding: 15px 40px 19px 40px;
+    padding: 9px 9px 9px 20px;
     border-radius: 30px;
     border: 2px solid white;
     margin-top: 20px;
     color:white;
-    width: 320px;
+    width: 130px;
+    font-size: 14px;
 }
-a.df {
-    color:transparent;
+a.df:hover {
+    color:transparent !important;
 }
 .df:hover {
-    background: white;
+    background: rgb(245, 129, 34);
     color:transparent;
 }
