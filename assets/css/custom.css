@@ -1107,5 +1107,6 @@ a.df:hover {
 }
 .df:hover {
     background: rgb(245, 129, 34);
+    border: 2px solid rgb(245, 129, 34);
     color:transparent;
 }
