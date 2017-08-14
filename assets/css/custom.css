@@ -189,6 +189,7 @@ a{
 .header-bg{
     background: url('http://placehold.it/1920x1200') no-repeat center top;
     background-size: cover;
+
 }
 .bg-color{
     background:#2E478F;
@@ -681,7 +682,7 @@ a{
     width: 100%;
 }
 .contactLPE .icon-part .bg-color2{
-    height: 250px;
+    height: 280px;
     padding: 60px 0;
     width: 100%;
 }
@@ -691,8 +692,14 @@ a{
 .contactLPE .text-part1{
     float: left;
     padding: 15px 20px;
-    height: 250px;
+    height: 280px;
     width: 85%;
+}
+@media (max-width:768px) {
+    .contactLPE .icon-part .bg-color2, .contactLPE .text-part1{
+        height: 410px;
+
+    }
 }
 .contactLPE .text-part{
     float: left;
@@ -809,7 +816,7 @@ margin-right: auto;
 }
 .card {
     background: white;
-    box-shadow: 0 1px 5px rgba(0,0,0,.4);
+    box-shadow: 0 1px 5px rgba(0,0,0,.4), -9px 5px 20px  rgba(0,0,0,.2);
     border-radius: 3px;
    // padding:20px;
    margin-top:25px
@@ -867,6 +874,9 @@ height: 100%;
     height: 100%;
     animation: background 15s;
     animation-iteration-count:infinite;
+
+
+
 
 }
 .bg-yellow {
@@ -989,4 +999,7 @@ li > a {
 
 .small-space-bottom {
     margin-bottom: 25px;
+}
+.small-space-top {
+    margin-top:20px
 }
