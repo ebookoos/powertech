@@ -882,9 +882,16 @@ height: 100%;
 
 
 }
-.bg-yellow {
-    background: rgb(245, 129, 34);
+.bg-yellow-img {
+    background: url(../img/p2.jpeg);
     color: white !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-yellow {
+    background: rgba(245, 129, 34, 0.73);
 }
 .text-yellow {
     color: rgb(245, 129, 34);
