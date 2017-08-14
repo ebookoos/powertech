@@ -883,7 +883,7 @@ height: 100%;
 
 }
 .bg-yellow-img {
-    background: url(../img/p2.jpeg);
+    background: url(../img/p3.jpeg);
     color: white !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -891,7 +891,7 @@ height: 100%;
     background-position: center;
 }
 .bg-yellow {
-    background: rgba(245, 129, 34, 0.73);
+    background: rgba(245, 129, 34, 0.84);
 }
 .text-yellow {
     color: rgb(245, 129, 34);
@@ -1073,4 +1073,15 @@ ul.bottom-link {
 }
 .bottom-link li a {
     color:white
+}
+
+.rtxt {
+    font-size: 12px;
+}
+.rtxt1 {
+    margin-top:12px
+}
+.small-img {
+    margin-top: 35px;
+    width:120px
 }
