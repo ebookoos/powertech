@@ -883,7 +883,7 @@ height: 100%;
 
 }
 .bg-yellow-img {
-    background: url(../img/p3.jpeg);
+    background: url(../img/p7.jpg);
     color: white !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -891,7 +891,7 @@ height: 100%;
     background-position: center;
 }
 .bg-yellow {
-    background: rgba(245, 129, 34, 0.84);
+    background: rgba(0, 0, 0, 0.54);
 }
 .text-yellow {
     color: rgb(245, 129, 34);
@@ -942,10 +942,12 @@ height: 100%;
 
 .size {
     width:100%;
-    height: 55%;
+    height:40%;
     margin-top:10px;
     margin-bottom:20px;
     object-fit: cover;
+    position: relative;
+    top: 20px;
 }
 .small-space {
     margin-top:15px;
@@ -1103,10 +1105,10 @@ ul.bottom-link {
     font-size: 14px;
 }
 a.df:hover {
-    color:transparent !important;
+    color:white !important;
 }
 .df:hover {
     background: rgb(245, 129, 34);
     border: 2px solid rgb(245, 129, 34);
-    color:transparent;
+    color:white;
 }
