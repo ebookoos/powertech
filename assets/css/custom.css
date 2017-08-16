@@ -713,7 +713,7 @@ a{
     width: 85%;
 }
 .contactLPE .text-part h5{
-    text-transform: uppercase;
+   // text-transform: uppercase;
     font-size: 12px;
 }
 .contactLPE .text-part .line{
