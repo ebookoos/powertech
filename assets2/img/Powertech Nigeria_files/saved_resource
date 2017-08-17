@@ -1,6 +1,0 @@
-.empty{}/* empty */
-#mega_main_menu .nav_logo > .logo_link > img 
-{
-	max-height: 90%;
-}
- /*2017-08-09 15:25*//* CSS Generator Execution Time: 9.1791152954102E-5 seconds */
